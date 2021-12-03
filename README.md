@@ -39,4 +39,18 @@ ss -tlpn | grep 8080
 systemctl status jira.service
 ss -tlpn | grep 8888
 ```
-  
+
+## Ссылки
+- Документация Jira
+  - https://confluence.atlassian.com/adminjiraserver/installing-jira-applications-on-linux-from-archive-file-938846844.html
+  - https://confluence.atlassian.com/jirakb/run-jira-as-a-systemd-service-on-linux-979411854.html
+  - https://confluence.atlassian.com/adminjiraserver/unattended-installation-938846846.html
+- Документация Vagrant
+  - https://www.vagrantup.com/docs/synced-folders/rsync
+  - https://www.vagrantup.com/docs/provisioning/file
+  - https://www.vagrantup.com/docs/provisioning/shell#privileged
+- Misc
+  - https://serverfault.com/questions/775246/systemd-timer-not-starting-its-service-unit
+  - https://stackoverflow.com/questions/54067192/vagrant-config-vm-provision-does-not-allow-me-to-copy-a-file-to-etc-nginx-conf
+  - https://stackoverflow.com/questions/14295771/how-do-i-extract-files-without-folder-structure-using-tar
+  - https://access.redhat.com/solutions/61334
