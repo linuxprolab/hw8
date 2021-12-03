@@ -10,7 +10,7 @@
 Все 4 задачи выполнены в одной машине с использованием Vagrant и Vagrant shell provisioner.
 Для проверки:
 1. Склонировать репозиторий
-   `git clone https://github.com/linuxprolab/hw8.git`
+   - `git clone https://github.com/linuxprolab/hw8.git`
 2. Запустить vagrant
-   cd hw8/
-   vagrant up
+   - `cd hw8/`
+   - `vagrant up`
