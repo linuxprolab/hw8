@@ -14,17 +14,17 @@
    - `cd hw8/`
    - `vagrant up`
    - `vagrant ssh -- -t "export TERM=xterm; sudo -i"`
-### 3.1. Задание 1.
+### 3.1. Задание 1
    - `systemctl status watchlog.timer` 
    - `grep Master /var/log/messages`
-### 3.2. Задание 2.
+### 3.2. Задание 2
    - `systemctl status spawn-fcgi.service`
-### 3.3. Задание 3.
+### 3.3. Задание 3
    - `systemctl status httpd@first.service`
    - `systemctl status httpd@second.service`
    - `ss -tlpn | grep 80`
    - `ss -tlpn | grep 8080` 
-### 3.4. Задание 4.
+### 3.4. Задание 4
    - `systemctl status jira.service`
    - `ss -tlpn | grep 8888`
   
